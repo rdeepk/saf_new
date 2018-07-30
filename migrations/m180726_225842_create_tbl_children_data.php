@@ -43,8 +43,8 @@ class m180726_225842_create_tbl_children_data extends Migration
             'sponsered' => $this->integer()->notNull(),
             'sponser_id' => $this->integer(),
             'school_id' => $this->integer(),
-            'created_at' => $this->integer()->notNull(),
-            'updated_at' => $this->integer()->notNull(),
+            'created_at' => $this->datetime()->notNull(),
+            'updated_at' => $this->datetime()->notNull(),
         ], $tableOptions);
         // $this->addForeignKey(
         //     'fk-user_id', 'children', 'user_id', 'user', 'id', 'CASCADE');
