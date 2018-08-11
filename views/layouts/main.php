@@ -47,6 +47,8 @@ AppAsset::register($this);
             ['label' => 'Sponsers', 'url' => ['/sponser']],
             Yii::$app->user->isGuest ? '' :
             ['label' => 'Schools', 'url' => ['/schools']],
+            Yii::$app->user->isGuest ? '' :
+            ['label' => 'Parents', 'url' => ['/parent']],
             Yii::$app->user->isGuest ? 
             // (
             //     ['label' => 'Login', 'url' => ['/user/login']]
