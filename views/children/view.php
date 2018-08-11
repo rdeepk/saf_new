@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model \models\Children */
 
 $this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Childrens', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Children', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="children-view">

@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model backend\models\Children */
 
 $this->title = 'Update Children: {nameAttribute}';
-$this->params['breadcrumbs'][] = ['label' => 'Childrens', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Children', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

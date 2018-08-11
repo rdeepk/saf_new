@@ -5,6 +5,10 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
+    'name' => 'SAF INTERNATIONAL',
+    'defaultRoute' => 'user/login',
+    'homeUrl'=> ['children/index'],
+    // 'defaultController' => 'ChildrenController/actionIndex',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -58,6 +62,7 @@ $config = [
     'modules' => [
         'user' => [
             'class' => 'amnah\yii2\user\Module',
+            // 'identityClass' => 'amnah\yii2\user\models\User',
             // set custom module properties here ...
         ],
     ],
